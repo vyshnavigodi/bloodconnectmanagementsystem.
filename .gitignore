@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+*/node_modules/
+
+# Environment variables - NEVER COMMIT
+.env
+backend/.env
+frontend/.env
+
+# Build outputs
+dist/
+build/
+*/dist/
+*/build/
+
+# Logs
+*.log
+logs/
+*/logs/
+
+# TypeScript compiled output
+backend/dist/
+
+# Uploads (user data)
+backend/public/uploads/
+backend/public/certificates/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+
+# Test coverage
+coverage/
